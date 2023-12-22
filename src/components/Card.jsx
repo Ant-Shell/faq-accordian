@@ -1,4 +1,4 @@
-import Accordian from './Accordian'
+import Accordian from './Accordion'
 import data from './../data/data'
 
 const Card = () => {

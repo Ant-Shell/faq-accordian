@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 
-const Accordian = ({ question, answer }) => {
+const Accordion = ({ question, answer }) => {
 
   const [isClicked, setIsClicked] = useState(false)
 
@@ -29,4 +29,4 @@ const Accordian = ({ question, answer }) => {
 }
 
 
-export default Accordian
+export default Accordion
