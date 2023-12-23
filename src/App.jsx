@@ -1,6 +1,6 @@
 import Card from './components/Card'
 import './styles/_global.scss'
-import mobileHeaderImage from '../public/assets/images/background-pattern-mobile.svg'
+import mobileHeaderImage from './assets/images/background-pattern-mobile.svg'
 
 const App = () => {
   return (
