@@ -1,5 +1,6 @@
 import Accordian from './Accordion'
 import data from './../data/data'
+import star from '../assets/images/icon-star.svg'
 
 const Card = () => {
 
@@ -17,6 +18,10 @@ const Card = () => {
   return (
     <>
     <section>
+      <div>
+        <img src={star}/>
+        <h1>FAQs</h1>
+      </div>
       { accordians }
     </section>
   </>
