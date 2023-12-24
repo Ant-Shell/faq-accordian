@@ -1,4 +1,5 @@
 import { useState } from "react"
+import '../styles/mixins/worksans-font.scss'
 
 
 const Accordion = ({ question, answer }) => {
@@ -13,13 +14,13 @@ const Accordion = ({ question, answer }) => {
   return (
     <section>
       <div>
-        <h2>{ question }</h2>
+        <h2 className="question-text">{ question }</h2>
         <button onClick={(e)=> toggleAnswer(e)}>X</button>
       </div>
       { 
         isClicked && 
         <div>
-          <p>
+          <p className="answer-text">
             { answer }
           </p>
         </div>
