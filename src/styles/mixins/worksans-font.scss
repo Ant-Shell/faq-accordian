@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'WorkSans-Variable';
+  src: url(../../assets/fonts/WorkSans-VariableFont_wght.ttf)
+}
+
+@mixin worksans-font($weight: 900) {
+  font-family: 'WorkSans-Variable';
+  font-weight: $weight;
+}
+
+.faqs-header {
+  @include worksans-font($weight: 700);
+}
+
+.question-text {
+  @include worksans-font($weight: 550);
+}
+
+.answer-text {
+  @include worksans-font($weight: 100);
+}
