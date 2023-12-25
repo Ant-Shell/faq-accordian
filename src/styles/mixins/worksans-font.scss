@@ -1,21 +1,32 @@
 @font-face {
-  font-family: 'WorkSans-Variable';
-  src: url(../../assets/fonts/WorkSans-VariableFont_wght.ttf)
+  font-family: 'WorkSans-Bold';
+  src: url(../../assets/fonts/static/WorkSans-Bold.ttf)
 }
 
-@mixin worksans-font($weight: 900) {
-  font-family: 'WorkSans-Variable';
+@font-face {
+  font-family: 'WorkSans-Regular';
+  src: url(../../assets/fonts/static/WorkSans-Regular.ttf)
+}
+
+@font-face {
+  font-family: 'WorkSans-SemiBold';
+  src: url(../../assets/fonts/static/WorkSans-SemiBold.ttf)
+}
+
+@mixin worksans-font($font-family: 'WorkSans-Regular', $weight: 100, $font-size: 16px) {
+  font-family: $font-family;
   font-weight: $weight;
+  font-size: $font-size;
 }
 
-.faqs-header {
-  @include worksans-font($weight: 700);
+.faqs-text {
+  @include worksans-font($font-family: 'WorkSans-Bold', $weight: 600, $font-size: 50px);
 }
 
 .question-text {
-  @include worksans-font($weight: 550);
+  @include worksans-font($font-family: 'WorkSans-SemiBold', $weight: 400, $font-size: 20px);
 }
 
 .answer-text {
-  @include worksans-font($weight: 100);
+  @include worksans-font;
 }
