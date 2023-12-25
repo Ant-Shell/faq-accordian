@@ -1,4 +1,15 @@
+@use './utilities/variables';
 
-.card-section {
-  background-color: hsl(0, 0%, 100%);
+section {
+  background-color: variables.$white;
+  div {
+    display: flex;
+    flex-direction: row;
+    img {
+      background-color: variables.$white;
+    }
+    h1 {
+      background-color: variables.$white;
+    }
+  }
 }
