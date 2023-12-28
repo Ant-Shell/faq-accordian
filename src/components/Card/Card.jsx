@@ -1,8 +1,8 @@
-import Accordian from './Accordion'
-import data from './../data/data'
-import star from '../assets/images/icon-star.svg'
-import '../styles/card.scss'
-import '../styles/mixins/worksans-font.scss'
+import Accordian from '../Accordion/Accordion'
+import data from '../../data/data'
+import star from '../../assets/images/icon-star.svg'
+import './card.scss'
+import '../../styles/_worksans-font.scss'
 
 const Card = () => {
 

@@ -1,6 +1,6 @@
 import { useState } from "react"
-import '../styles/accordion.scss'
-import '../styles/mixins/worksans-font.scss'
+import './accordion.scss'
+import '../../styles/_worksans-font.scss'
 
 
 const Accordion = ({ question, answer }) => {
