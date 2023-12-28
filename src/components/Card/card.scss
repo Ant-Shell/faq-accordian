@@ -1,15 +1,31 @@
-@use '../../styles/_variables';
+@use '../../styles/_variables' as *;
+@use '../../styles/media-queries' as *;
 
-section {
-  background-color: variables.$white;
-  div {
-    display: flex;
-    flex-direction: row;
-    img {
-      background-color: variables.$white;
-    }
-    h1 {
-      background-color: variables.$white;
-    }
+.card-section {
+  height: auto;
+  width: auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: $white;
+  margin-top: 8rem;
+
+  @include Desktop {
+    width: 600px;
+    height: 565px;
+    padding: 40px;
+    border-radius: 16px;
+    gap: 32px;
+    position: absolute;
   }
+}
+
+.faqs-banner {
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+.star-image,
+.faqs-text {
+  background-color: $white;
 }

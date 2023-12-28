@@ -1,7 +1,8 @@
 import { useState } from "react"
 import './accordion.scss'
 import '../../styles/_worksans-font.scss'
-
+import plus from '../../assets/images/icon-plus.svg'
+import minus from '../../assets/images/icon-minus.svg'
 
 const Accordion = ({ question, answer }) => {
 
@@ -14,9 +15,11 @@ const Accordion = ({ question, answer }) => {
 
   return (
     <section className="accordion-section">
-      <div>
+      <div className="button-container">
         <h2 className="question-text">{ question }</h2>
-        <button onClick={(e)=> toggleAnswer(e)}>X</button>
+        <button className="dropdown-button" onClick={(e)=> toggleAnswer(e)}>
+          {isClicked ? <img src={minus}/> : <img src={plus}/>}
+        </button>
       </div>
       { 
         isClicked && 

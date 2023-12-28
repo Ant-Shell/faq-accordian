@@ -18,15 +18,13 @@ const Card = () => {
   })
 
   return (
-    <>
     <section className='card-section'>
-      <div className='faqs-banner'>
-        <img src={star}/>
-        <h1 className='faqs-text'>FAQs</h1>
-      </div>
-      { accordians }
+        <div className='faqs-banner'>
+          <img className='star-image' src={star}/>
+          <h1 className='faqs-text'>FAQs</h1>
+        </div>
+        { accordians }
     </section>
-  </>
   )
 }
 

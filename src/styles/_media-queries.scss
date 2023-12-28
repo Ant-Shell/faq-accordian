@@ -1,4 +1,12 @@
-$breakpoints: (
-  mobile: 375px,
-  desktop: 1440px
-)
+// @mixin Desktop {
+//   @media screen and (min-width: 1440px) {
+//     @content;
+//   }
+// }
+
+@mixin Desktop {
+  @media screen and (min-width: 1024px) {
+    @content;
+  }
+}
+

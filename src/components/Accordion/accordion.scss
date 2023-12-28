@@ -1,4 +1,25 @@
+@use '../../styles/variables';
 
-div, h2 {
-  background-color: hsl(0, 0%, 100%);
+div, 
+.question-text, 
+.dropdown-button {
+  background-color: variables.$white;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdown-button {
+  border: none;
+}
+
+.dropdown-button:hover {
+  cursor: pointer;
+}
+
+.answer-text {
+  color: variables.$greyish-purple ;
 }
