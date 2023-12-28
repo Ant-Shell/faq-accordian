@@ -1,16 +1,16 @@
 @font-face {
   font-family: 'WorkSans-Bold';
-  src: url(../../assets/fonts/static/WorkSans-Bold.ttf)
+  src: url(../assets/fonts/static/WorkSans-Bold.ttf)
 }
 
 @font-face {
   font-family: 'WorkSans-Regular';
-  src: url(../../assets/fonts/static/WorkSans-Regular.ttf)
+  src: url(../assets/fonts/static/WorkSans-Regular.ttf)
 }
 
 @font-face {
   font-family: 'WorkSans-SemiBold';
-  src: url(../../assets/fonts/static/WorkSans-SemiBold.ttf)
+  src: url(../assets/fonts/static/WorkSans-SemiBold.ttf)
 }
 
 @mixin worksans-font($font-family: 'WorkSans-Regular', $weight: 100, $font-size: 16px) {
