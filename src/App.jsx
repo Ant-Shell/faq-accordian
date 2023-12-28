@@ -4,12 +4,14 @@ import mobileHeaderImage from './assets/images/background-pattern-mobile.svg'
 
 const App = () => {
   return (
-    <section className='app'>
-      <header>
-        <img className='header-background' src={mobileHeaderImage} alt="Mobile Header Image" />
-      </header>
-      <Card />
-    </section>
+    <>
+      {/* <section className='card-container'> */}
+        <header>
+          <img className='header-background' src={mobileHeaderImage} alt="Mobile Header Image" />
+        </header>
+          <Card />
+      {/* </section> */}
+    </>
   )
 }
 
