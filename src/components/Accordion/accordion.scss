@@ -1,4 +1,5 @@
 @use '../../styles/variables' as *;
+@use '../../styles/media-queries' as *;
 
 div, 
 .question-text, 
@@ -23,6 +24,17 @@ div,
 .bar-1 {
   visibility: hidden;
 }
+
+.bar-1,
+.bar-2,
+.bar-3,
+.bar-4 {
+  width: 300px;
+  @include Desktop {
+    width: 600px;
+  }
+}
+
 
 .dropdown-button:hover,
 .accordion-section:hover {

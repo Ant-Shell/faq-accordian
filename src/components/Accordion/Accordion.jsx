@@ -37,7 +37,6 @@ const Accordion = ({ question, answer, id }) => {
   )
 }
 
-
 export default Accordion
 
 Accordion.propTypes = {
