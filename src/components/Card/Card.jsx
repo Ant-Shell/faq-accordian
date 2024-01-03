@@ -13,6 +13,7 @@ const Card = () => {
         key={id}
         question={question}
         answer={answer}
+        id={id}
       />
     )
   })

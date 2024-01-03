@@ -20,6 +20,10 @@ div,
   color: $greyish-purple ;
 }
 
+.bar-1 {
+  visibility: hidden;
+}
+
 .dropdown-button:hover,
 .accordion-section:hover {
   cursor: pointer;
