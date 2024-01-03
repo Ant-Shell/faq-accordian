@@ -16,10 +16,16 @@ div,
   border: none;
 }
 
-.dropdown-button:hover {
-  cursor: pointer;
-}
-
 .answer-text {
   color: $greyish-purple ;
 }
+
+.dropdown-button:hover,
+.accordion-section:hover {
+  cursor: pointer;
+}
+
+.question-text:hover {
+  color: $purple
+}
+

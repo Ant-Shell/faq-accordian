@@ -14,10 +14,10 @@ const Accordion = ({ question, answer }) => {
   }
 
   return (
-    <section className="accordion-section">
+    <section className="accordion-section" onClick={(e)=> toggleAnswer(e)}>
       <div className="button-container">
         <h2 className="question-text">{ question }</h2>
-        <button className="dropdown-button" onClick={(e)=> toggleAnswer(e)}>
+        <button className="dropdown-button">
           {isClicked ? <img src={minus}/> : <img src={plus}/>}
         </button>
       </div>

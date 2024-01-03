@@ -8,7 +8,7 @@ const App = () => {
         <header>
           <img className='header-background' src={mobileHeaderImage} alt="Mobile Header Image" />
         </header>
-          <Card />
+        <Card />
     </>
   )
 }
