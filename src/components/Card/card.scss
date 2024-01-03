@@ -1,0 +1,45 @@
+@use '../../styles/_variables' as *;
+@use '../../styles/media-queries' as *;
+
+.card-section {
+  height: auto;
+  width: auto;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: $white;
+  margin-top: 128px;
+  margin-left: 10px;
+  margin-right: 10px;
+  box-shadow: 0 5px 70px -2px $greyish-purple; 
+
+  @include Desktop {
+    width: 600px;
+    height: auto;
+    padding: 40px;
+    border-radius: 16px;
+    gap: 32px;
+  }
+}
+
+.faqs-banner {
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 25px;
+}
+
+.star-image,
+.faqs-text {
+  background-color: $white;
+}
+
+.star-image {
+  height: 40px;
+  width: 40px;
+  align-self: end;
+}
+
+.faqs-text {
+  margin-left: 30px;
+  margin-top: 0;
+}

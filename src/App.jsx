@@ -1,14 +1,13 @@
-import Card from './components/Card'
+import Card from './components/Card/Card'
 import './styles/_global.scss'
-import mobileHeaderImage from '../public/assets/images/background-pattern-mobile.svg'
 
 const App = () => {
   return (
     <>
-      <header>
-        <img src={mobileHeaderImage} alt="Mobile Header Image" />
-      </header>
-      <Card />
+        <header>
+          <div className='header-background-image'></div>
+        </header>
+        <Card />
     </>
   )
 }

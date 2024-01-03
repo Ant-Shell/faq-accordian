@@ -1,0 +1,47 @@
+@use '../../styles/variables' as *;
+@use '../../styles/media-queries' as *;
+
+div, 
+.question-text, 
+.dropdown-button {
+  background-color: $white;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.dropdown-button {
+  border: none;
+}
+
+.answer-text {
+  color: $greyish-purple;
+}
+
+.bar-1 {
+  visibility: hidden;
+}
+
+.bar-1,
+.bar-2,
+.bar-3,
+.bar-4 {
+  width: 300px;
+  @include Desktop {
+    width: 600px;
+  }
+}
+
+
+.dropdown-button:hover,
+.accordion-section:hover {
+  cursor: pointer;
+}
+
+.question-text:hover {
+  color: $purple;
+}
+
