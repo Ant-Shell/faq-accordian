@@ -17,11 +17,11 @@ const Accordion = ({ question, answer, id }) => {
 
   return (
     <section className="accordion-section" onClick={(e)=> toggleAnswer(e)}>
-      <img className={`bar-${id}`} src={bar}/>
+      <img className={`bar-${id}`} src={bar} alt="Separator bar"/>
       <div className="button-container">
         <h2 className="question-text">{ question }</h2>
-        <button className="dropdown-button">
-          {isClicked ? <img src={minus}/> : <img src={plus}/>}
+        <button type="button" className="dropdown-button">
+          {isClicked ? <img src={minus} alt="Minus sign"/> : <img src={plus} alt="Plus sign"/>}
         </button>
         {console.log(id)}
       </div>
