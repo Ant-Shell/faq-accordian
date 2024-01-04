@@ -5,7 +5,7 @@ const App = () => {
   return (
     <>
         <header>
-          <div className='header-background-image'></div>
+          <div role="img" aria-label="Header banner image" className='header-background-image'></div>
         </header>
         <Card />
     </>
