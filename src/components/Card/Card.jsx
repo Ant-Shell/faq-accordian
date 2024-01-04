@@ -21,7 +21,7 @@ const Card = () => {
   return (
     <section className='card-section'>
         <div className='faqs-banner'>
-          <img className='star-image' src={star}/>
+          <img className='star-image' src={star} alt="Star image"/>
           <h1 className='faqs-text'>FAQs</h1>
         </div>
         { accordians }
