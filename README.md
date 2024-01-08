@@ -40,7 +40,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Solution URL](https://github.com/Ant-Shell/faq-accordion)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/solutions/faq-accordion-using-react-and-scss-Uv2ljOa151)
 - Live Site URL: [Live Site URL](https://faq-accordion-lovat-three.vercel.app/)
 
 ## My process
