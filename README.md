@@ -6,7 +6,7 @@ This is a solution to the [FAQ accordion challenge on Frontend Mentor](https://w
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshots](#screenshots)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -78,7 +78,7 @@ This was the first time I've used SASS in a project, so I look forward to learni
 ## Author
 
 - Website - [ant-shell.me](https://www.ant-shell.me/)
-- Frontend Mentor - [@Ant-Shell](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Ant-Shell](https://www.frontendmentor.io/profile/Ant-Shell)
 - LinkedIn - [in/anthonyshellman](https://www.linkedin.com/in/anthonyshellman/)
 
 ## Acknowledgments
